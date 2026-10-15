@@ -1,8 +1,10 @@
 # GIM Campus Buddy: Product Case Study
 
-> One place for students at the university to discover campus events, follow clubs, and find regional communities, and for clubs to publish and manage those events.
+> One place for students at Goa Institute of Management to discover campus events, follow clubs, and find regional communities, and for clubs to publish and manage those events.
 
-**Context:** End-term project, MBA (Marketing)
+**Context:** End-term group project, MBA (Marketing / Product Strategy)
+**Team:** [Names of team members]
+**My role:** [e.g. Product lead on strategy and GTM; built and deployed the working MVP]
 **Stage:** Early pilot, live PWA
 **Stack:** Vercel · Node.js serverless API · MongoDB · Vanilla JS Progressive Web App · Mixpanel
 **Research:** 12 interviews with students and club members
@@ -19,12 +21,23 @@ Clubs have the mirror-image problem. To reach students they have to maintain sev
 
 ## 2. Who It's For
 
-| User | What they need |
-|---|---|
-| **Students** | See all upcoming events in one place, get relevant recommendations, register quickly, find regional and interest communities |
-| **Clubs and student bodies** | Publish events once, reach the right audience, manage registrations, keep members informed |
+Based on 12 interviews with students and club members, I defined two core personas.
 
-[Add your final personas and Jobs-to-be-Done table here. They're in the project doc.]
+### User Personas
+
+| Persona | Demographics | Pain points | Likes | Dislikes |
+|---|---|---|---|---|
+| **Students** | All age groups, all genders | Not aware of events, communities and opportunities on campus | • Campus updates on one platform<br>• Engaging with others during the event<br>• Ease of getting to know others from similar communities | • Having to check multiple sources for campus updates<br>• Being unaware of the point of contact |
+| **Club members** | All age groups, all genders | • Not able to create awareness and reach for their events<br>• Difficult to make announcements during the event | • Easy avenues for event announcements<br>• Large number of participants | • Having to send the same announcement over multiple sources<br>• Having to push through noise on platforms to gain visibility |
+
+### Jobs to Be Done
+
+| Persona | Functional job | Social job | Emotional job |
+|---|---|---|---|
+| **Students** | Be made aware of the events, communities and opportunities happening on campus | Engage with participants during the event | Feel connected to campus life, confident they are not missing opportunities, and a sense of belonging by finding communities that match their interests |
+| **Club members** | Spread awareness and create desire to participate in their events | Generate interest and participation in their events | Feel their efforts are recognized, satisfied that their events reach the right audience, and confident they can build an active community around their club |
+
+---
 
 ## 3. Product Vision & Principles
 
@@ -114,7 +127,7 @@ I treated scope as the main product decision. The MVP had to prove one thing: **
 
 ---
 
-## 6. Go-to-Market
+## 6. Go-to-Market, OKRs & Roadmap
 
 **Market sizing (GIM only)**
 
@@ -130,7 +143,33 @@ I treated scope as the main product decision. The MVP had to prove one thing: **
 
 **Pricing:** Free for students and clubs. *Future:* per-institution licensing (B2B SaaS).
 
-[Add your competitor analysis, OKRs and roadmap here.]
+### OKRs (pilot targets)
+
+| Goal | Objective | Key Result 1 | Key Result 2 |
+|---|---|---|---|
+| **Platform adoption** | Establish the platform as the primary source for campus events and announcements | Publish **30+ campus events** during the pilot | **80% of participating clubs** regularly post announcements or events |
+| **User engagement** | Increase student participation in campus events and communities | Achieve **60% Weekly Active Users (WAU)** | Generate **500+ event registrations** through the platform |
+| **User acquisition** | Successfully launch and drive adoption of the platform among GIM students | Achieve **250 student registrations** within 2 months | Onboard **8–10 clubs/committees** to actively use the platform |
+| **Product validation** | Validate product-market fit and improve the platform based on user feedback | Collect feedback from **100+ students** | Achieve an average satisfaction rating of **4.3/5 or higher** |
+
+*These are targets for the club-led pilot, not results. Current status is covered in section 7: early testing, with 13 sign-ups so far against the 250 target.*
+
+### MVP Roadmap
+
+Each release was written as a user story and tied to an OKR, then prioritized by impact and sized by effort (S / M / L).
+
+| Release | User story | Persona | Linked OKRs | Priority | Effort | Status |
+|---|---|---|---|---|---|---|
+| **1. Authentication** | As a student, I want to create my campus profile, so that I can access personalized campus information | Students | User Acquisition | High | S | Shipped |
+| **2. Event Directory** | As a student, I want to view upcoming campus events in one place, so that I don't miss important activities | Students | User Engagement | High | L | Shipped |
+| **2. Club & Community Directory** | As a student, I want to explore campus clubs and communities, so that I can join groups matching my interests | Students | Platform Adoption | High | L | Shipped |
+| **3. Registration** | As a student, I want to register for events, so that I can participate without manual processes | Students | User Engagement, User Acquisition | High | L | Shipped |
+| **4. Event Management** | As a club member, I want to create and manage events, so that I can easily communicate activities to students | Club members | User Engagement, User Acquisition | High | L | Shipped |
+| **5. Event Chat** | As a student, I want to communicate with event participants, so that I can coordinate and engage before events | Students | User Engagement | Low | M | Shipped |
+| **6. Notifications** | As a student, I want reminders for upcoming events, so that I do not miss activities I registered for | Students | User Engagement | Medium | M | Partly shipped (in-app notifications live, reminders next) |
+| **7. Test & Launch** | As a student or club member, I want a smooth experience, so that I can easily discover and manage campus activities | Both | Product Validation, Platform Adoption | High | M | In progress (pilot) |
+
+Everything flagged High priority maps to the acquisition, engagement and adoption OKRs, and the one Low-priority item (chat) was deliberately sequenced last.
 
 ---
 
@@ -182,3 +221,14 @@ I instrumented the student app with Mixpanel from the first release.
 4. QR check-in to measure actual attendance, not just registration
 5. Strengthen authentication and admin controls before wider rollout
 6. Explore institution licensing once usage is proven
+
+---
+
+## Skills Demonstrated
+
+`Product Strategy` · `User Research (12 interviews)` · `Market Sizing` · `Go-to-Market` · `Scope Prioritization` · `Funnel Analytics (Mixpanel)` · `Hands-on Prototyping`
+
+---
+
+**[Your Name]** · MBA (Marketing / Product Strategy), Goa Institute of Management
+[LinkedIn] · [Email]
