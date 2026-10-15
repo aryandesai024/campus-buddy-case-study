@@ -227,8 +227,3 @@ I instrumented the student app with Mixpanel from the first release.
 ## Skills Demonstrated
 
 `Product Strategy` · `User Research (12 interviews)` · `Market Sizing` · `Go-to-Market` · `Scope Prioritization` · `Funnel Analytics (Mixpanel)` · `Hands-on Prototyping`
-
----
-
-**[Your Name]** · MBA (Marketing / Product Strategy), Goa Institute of Management
-[LinkedIn] · [Email]
